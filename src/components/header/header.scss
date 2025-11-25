@@ -1,0 +1,37 @@
+.header {
+    .container {
+        padding: 25px 0;
+        display: flex;
+        align-items: center;
+    }
+
+    &__navs, &__login__navs {
+        display: flex;
+        gap: 35px;
+    }
+
+    .header__input__wrapper {
+        position: relative;
+        margin: 0 35px 0 60px;
+    }
+
+    &__input {
+        background-color: #d3d3d3;
+        padding: 8px 8px 8px 60px;
+        border: none;
+        width: 447px;
+
+        &__decoration {
+            position: absolute;
+            top: 3px;
+            left: 8px;
+        }
+    }
+
+    &__socials {
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        gap: 35px;
+    }
+}
