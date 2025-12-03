@@ -1,0 +1,42 @@
+.profile {
+    padding: 50px 0;
+
+    h1 {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    &__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 25px;
+
+        &__user {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            &__name {
+                font-size: 40px;
+                font-weight: 700;
+            }
+
+            &__completedTests,
+            &__createdTests {
+                font-size: 30px;
+                font-weight: 700;
+            }
+        }
+
+        .orangeBtn {
+            padding: 14px 40px;
+        }
+    }
+
+    &__completedTests,
+    &__createdTests {
+        margin-top: 50px;
+    }
+}

@@ -1,3 +1,5 @@
+@import "values.scss";
+
 * {
     margin: 0;
     padding: 0;
@@ -5,19 +7,21 @@
 }
 
 body {
-    background-color: #FCE1E1;
+    background-color: #fce1e1;
     font-size: 20px;
 }
 
-h1, .h1 {
+h1,
+.h1 {
     font-size: 35px;
     font-weight: 700;
-} 
+}
 
-h2, .h2 {
+h2,
+.h2 {
     font-size: 30px;
     font-weight: 600;
-} 
+}
 
 .container {
     max-width: 1365px;
@@ -33,4 +37,32 @@ a {
 
 a:hover {
     color: gray;
+}
+
+.orangeBtn {
+    background-color: $orange;
+    font-size: 15px;
+    color: black;
+    width: fit-content;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.orangeBtn:hover {
+    background-color: darken($orange, 10%);
+    cursor: pointer;
+}
+
+.buttonCWrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: $lightGray;
+    border: none;
+    width: 500px;
 }

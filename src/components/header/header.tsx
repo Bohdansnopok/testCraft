@@ -4,20 +4,24 @@ import youtube from '../../../public/youtube.svg';
 import telegram from '../../../public/telegram.svg';
 import instagram from '../../../public/instagram.svg';
 import './header.scss';
+import Link from 'next/link';
 
 export default function Header() {
   return (
     <header className="header">
       <div className="container">
         <div className="header__navs">
-          <a href="" className="header__navs__nav">
+          <Link href="/" className="header__navs__nav">
             Главная
-          </a>
-          <a href="" className="header__navs__nav">
+          </Link>
+          <Link href="/aboutUs" className="header__navs__nav">
             О нас
-          </a>
-          <a href="" className="header__navs__nav">
+          </Link>
+          <Link href="/allTests" className="header__navs__nav">
             Тесты
+          </Link>
+          <a href="" className="header__navs__nav">
+            Создать тест
           </a>
         </div>
 

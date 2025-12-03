@@ -1,0 +1,22 @@
+@import "../../app/values.scss";
+
+.registration {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: $gray;
+    padding: 50px;  
+    border-radius: 10px;
+
+    h1 {
+        text-align: center;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 25px;
+    }
+}

@@ -1,0 +1,28 @@
+.allTests {
+    padding: 50px 0;
+
+    .container {
+        h1 {
+            text-align: center;
+        }
+    }
+
+    &__selections {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        margin-top: 20px;
+
+        &__select {
+            border: none;
+            background: none;
+        }
+
+        &__select:focus {
+            outline: none;
+        }
+    }
+}

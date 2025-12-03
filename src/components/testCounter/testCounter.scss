@@ -1,0 +1,12 @@
+@import "../../app/values.scss";
+
+.testCounter {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        color: $blue;
+        padding: 50px;
+    }
+}
