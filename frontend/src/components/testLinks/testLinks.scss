@@ -1,0 +1,23 @@
+@import "../../app/values.scss";
+
+.testLinks {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 140px;
+        padding: 25px 0;
+    }
+
+    &__card {
+        padding: 40px 45px;
+        background: $red;
+        min-height: 400px;
+        color: white;
+
+        .desc {
+            color: $green;
+            margin-top: 20px;
+        }
+    }
+}

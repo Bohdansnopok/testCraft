@@ -1,0 +1,36 @@
+@import "../../app/values.scss";
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap");
+
+.banner {
+    .container {
+        display: flex;
+        padding: 75px 0 45px 0;
+    }
+
+    &__leftContent {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+        .subject {
+            display: flex;
+            align-items: center;
+
+            h1 {
+                color: $red;
+                margin-left: 30px;
+                font-family: "Kaisei Tokumin", serif;
+            }
+        }
+    }
+
+    &__rightContent {
+        margin-left: auto;
+
+        img {
+            margin-left: auto;
+            display: block;
+            margin-top: 40px;
+        }
+    }
+}

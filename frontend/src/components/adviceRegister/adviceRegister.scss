@@ -1,0 +1,24 @@
+.adviceRegister {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__leftContent {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        .orangeBtn {
+            font-size: 35px;
+            padding: 18px 50px;
+            max-width: 326px;
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+@import "../../app/values.scss";
+
+.reviews {
+    .container {
+        padding: 50px 0;
+
+        h1 {
+            text-align: center;
+        }
+    }
+
+    &__cards {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    &__card {
+        background-color: #fff;
+        padding: 50px;
+        max-width: 550px;
+        border-radius: 12px;
+
+        &__review {
+            margin-top: 20px;
+        }
+    }
+
+    .reviews__card__user {
+        display: flex;
+        align-items: center;
+
+        &__avatar {
+            margin-right: 10px;
+        }
+
+        &__name {
+            font-size: 15px;
+            font-weight: 700;
+        }
+
+        &__rewDate {
+            font-size: 10px;
+            color: $gray;
+        }
+    }
+
+    .orangeBtn {
+        margin-top: 20px;
+        padding: 18px 30px;
+    }
+}
