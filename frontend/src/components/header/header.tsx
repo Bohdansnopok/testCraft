@@ -20,9 +20,9 @@ export default function Header() {
           <Link href="/allTests" className="header__navs__nav">
             Тесты
           </Link>
-          <a href="" className="header__navs__nav">
+          <Link href="/createTest" className="header__navs__nav">
             Создать тест
-          </a>
+          </Link>
         </div>
 
         <div className="header__input__wrapper">

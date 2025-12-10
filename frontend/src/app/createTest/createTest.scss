@@ -1,0 +1,90 @@
+.createTest {
+    .container {
+        padding: 50px 0;
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .addQuestion {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        button {
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        &__questionContent {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            &__editButtons {
+                gap: 10px;
+                display: flex;
+                align-items: center;
+
+                &__buttons {
+                    display: flex;
+                    gap: 10px;
+                }
+            }
+
+            &__questionText {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+
+            &__answers {
+                &__addVersion {
+                    margin-bottom: 20px;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+
+                &__answer {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    margin-top: 10px;
+                }
+
+                &__ansCounter {
+                    background-color: orange;
+                }
+            }
+        }
+    }
+
+    .question {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        
+        &__content {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            &__buttons {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+    }
+}
